@@ -37,3 +37,16 @@ Al pgadmin, es veu que ara hi ha un registre amb les dades que li hem introduit.
 En executar **read_registre.py**, la terminal mostra tots els clients de la taula **Clientes** en forma de llista. Això confirma que la consulta SELECT * FROM clientes funciona correctament.
 
 <img src="img/(4).png" width="800">
+
+### Accedir a determinat registre
+
+Quan executes **print(results[4])**, estàs accedint al cinquè registre de la llista results.
+(els índexs de les llistes comencen a comptar des de 0)
+
+<img src="img/(5).png" width="800">
+
+### 
+
+explicación
+
+<img src="img/(6).png" width="800">
