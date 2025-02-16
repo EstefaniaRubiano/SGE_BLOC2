@@ -14,6 +14,7 @@ def read_reg():
     #Obtenir resultats
     print(results)
     print(results[4])
+    print(results[4][3])
 
 print(read_reg())
 
