@@ -52,3 +52,9 @@ Quan s'executa **print(results[4][3])**, estàs accedint al correu electrònic d
 **results[4][3]** agafa el quart camp d'aquest registre, que a la nostra taula és correo_electronico_cliente.
 
 <img src="img/(6).png" width="800">
+
+### Consultes varies 
+
+Aquests prints mostren informació específica de diferents clients accedint als seus registres. Primer, recupera totes les dades d'un client en una posició concreta i després extreu un camp específic d'aquest mateix registre, com ara el correu electrònic, la direcció o la data de naixement. A la terminal, es mostrarà primer el registre complet i després la informació detallada segons el camp seleccionat.
+
+<img src="img/(7).png" width="800">
