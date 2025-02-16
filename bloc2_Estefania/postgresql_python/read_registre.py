@@ -29,6 +29,9 @@ def read_reg():
     #La data de cumpleanys de l'Albert
     print(results[19][4])
 
-print(read_reg())
+    conn.close()
+
+    return results
+
 
 

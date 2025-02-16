@@ -58,3 +58,29 @@ Quan s'executa **print(results[4][3])**, estàs accedint al correu electrònic d
 Aquests prints mostren informació específica de diferents clients accedint als seus registres. Primer, recupera totes les dades d'un client en una posició concreta i després extreu un camp específic d'aquest mateix registre, com ara el correu electrònic, la direcció o la data de naixement. A la terminal, es mostrarà primer el registre complet i després la informació detallada segons el camp seleccionat.
 
 <img src="img/(7).png" width="800">
+
+---
+
+### Sortida de la lectura de registres
+
+Quan s'executa **main.py**, la terminal mostra tots els registres de la taula clientes en un format estructurat gràcies al bucle for. Per a cada client, s'imprimeixen el **nom, l'adreça, el telèfon, el correu electrònic i la data de naixement**, permetent veure clarament tota la informació de la base de dades
+
+<img src="img/(8).png" width="800">
+
+### Updates 
+
+Quan s'executa **main.py**, la base de dades s'actualitza modificant el número de telèfon del client anomenat ex: Mireia, establint-lo a ex: 987654321. Si el registre de Mireia existeix a la taula clientes, el seu número de telèfon es canviarà pel nou valor.Si no hi ha cap client amb el nom "Mireia", la base de dades quedarà sense canvis.
+(3 canvis fets)
+
+<img src="img/canvis.png" width="800">
+
+### DELETE
+
+Quan s'executa **main.py**, la base de dades en pgadmin s'actualitza eliminant el registre del client anomenat ex: Miquel de la taula clientes. Si aquest client existeix, desapareixerà completament de la base de dades i ja no es podrà consultar.
+(Roger, Alba i Miquel eliminats) 
+
+<img src="img/delete(1).png" width="800">
+
+<img src="img/delete(2).png" width="800">
+
+<img src="img/delete(3).png" width="800">
