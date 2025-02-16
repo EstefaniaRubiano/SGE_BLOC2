@@ -11,3 +11,7 @@ def connection_db():
 
     return conn
 
+conn = connection_db()
+print(conn)
+conn.close()
+print(conn)
