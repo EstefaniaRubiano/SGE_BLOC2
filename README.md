@@ -45,8 +45,10 @@ Quan executes **print(results[4])**, estàs accedint al cinquè registre de la l
 
 <img src="img/(5).png" width="800">
 
-### 
+### Accedir a determinat camp del registre
 
-explicación
+Quan s'executa **print(results[4][3])**, estàs accedint al correu electrònic del cinquè client de la base de dades.
+**results[4]** selecciona el cinquè registre i
+**results[4][3]** agafa el quart camp d'aquest registre, que a la nostra taula és correo_electronico_cliente.
 
 <img src="img/(6).png" width="800">
